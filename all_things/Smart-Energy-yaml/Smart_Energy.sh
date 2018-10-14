@@ -1,6 +1,8 @@
 #!/bin/bash
 
-cd /home/ubuntu/Smart-Energy-Service/all_things/Smart-Energy-yaml/EdgeX_kubernetes/Edgex-Kubernetes/edgex-on-kubernetes
+
+chmod 777 /home/ubuntu/Smart-Energy-Service/all_things/Smart-Energy-yaml/SmartX-EdgeX-yaml/hack/*
+cd /home/ubuntu/Smart-Energy-Service/all_things/Smart-Energy-yaml/SmartX-EdgeX-yaml
 ./hack/edgex-up.sh
 cd /home/ubuntu/Smart-Energy-Service/all_things/Smart-Energy-yaml
 kubectl apply -f zookeeper.yaml
