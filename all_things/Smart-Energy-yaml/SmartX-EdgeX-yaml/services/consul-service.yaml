@@ -10,9 +10,11 @@ spec:
   - name: "8400"
     port: 8400
     targetPort: 8400
+    nodePort: 32222
   - name: "8500"
     port: 8500
     targetPort: 8500
+    nodePort: 32223
   - name: "8600"
     port: 8600
     targetPort: 8600
